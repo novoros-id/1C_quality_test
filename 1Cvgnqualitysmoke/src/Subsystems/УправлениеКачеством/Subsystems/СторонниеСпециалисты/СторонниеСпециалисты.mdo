@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f98c96ac-fd9a-429a-bbbf-8e3bb4af9fdb">
+  <name>СторонниеСпециалисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сторонние специалисты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СторонниеСпециалисты</content>
+  <content>Role.ЧтениеСтороннихСпециалистов</content>
+  <content>Role.ДобавлениеИзменениеСтороннихСпециалистов</content>
+  <parentSubsystem>Subsystem.УправлениеКачеством</parentSubsystem>
+</mdclass:Subsystem>

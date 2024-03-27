@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f581206-011d-4e2c-bd32-f03212489e25">
+  <producedTypes>
+    <objectType typeId="d09d98c9-2e48-4b73-b590-bd98f3761323" valueTypeId="71365e30-2a2d-450f-bc03-180e3636724a"/>
+    <managerType typeId="67586a3a-432f-46e6-a094-52eff2312d3c" valueTypeId="da1ef008-69d4-466c-907d-7c06b6fad10a"/>
+  </producedTypes>
+  <name>ОтчетСравнениеОтклоненийКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет сравнение отклонений конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетСравнениеОтклоненийКонфигураций.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="18f13020-5d51-4a71-b647-ba9fc1d7accf">
+    <name>ВыводитьБезСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить без свойств</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="15ddbcda-7aa7-43ab-a421-65cb4f74f800">
+    <producedTypes>
+      <objectType typeId="3ab754c2-d233-4193-9d68-ccc5ec73f4a8" valueTypeId="0537ce06-7585-49ca-a918-ff628e56debb"/>
+      <rowType typeId="f8cb307f-b327-48ac-8e66-51bea5a4731d" valueTypeId="b0f37e30-043e-4c51-9b4a-554cdfd4ddda"/>
+    </producedTypes>
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3daf57e0-38d5-4ae8-99f1-85b8faaa60ff">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fa62bda6-312f-4d72-a0e8-795195159bbe">
+      <name>КонфигурацияИсточник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конфигурация источник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конфигурации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2d0c2c40-c2ac-4179-a4b3-a5527dae36b4">
+      <name>КонфигурацияПриемник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конфигурация приемник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конфигурации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aed3d2e5-aa20-49fa-9d1f-60293316563c">
+      <name>Флаг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Флаг</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9041aa5f-93a8-471b-848c-c2eb68df02c4">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="077f9129-385e-4f7d-b0b4-45a5a38bd274">
+    <name>ОсновнойМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

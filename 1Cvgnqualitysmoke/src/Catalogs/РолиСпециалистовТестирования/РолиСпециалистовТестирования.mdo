@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59cb6b59-92a9-4a77-88d9-898dd94a54d7">
+  <producedTypes>
+    <objectType typeId="a0a9e8a1-4a65-46c6-b006-cf6bc6dbc753" valueTypeId="20b0bdd9-e05b-4fe5-a570-a72b3aaa1fa1"/>
+    <refType typeId="f6de878a-e9d5-4bfe-9ed0-59e86cd6297b" valueTypeId="55745861-d22f-491d-a042-40d652f195be"/>
+    <selectionType typeId="dbdb6085-3c8f-493d-81f0-d3bd093417a5" valueTypeId="3d812eee-c02b-4645-9aa8-227e55fe94ad"/>
+    <listType typeId="31155083-d054-435e-8006-209df1bb759c" valueTypeId="00852dc6-42e1-4b8d-a97c-0aa31a1239f6"/>
+    <managerType typeId="d4b8f881-dfca-4766-989e-9af70783d0f4" valueTypeId="dacac371-536b-42d9-9e7e-883b15db2524"/>
+  </producedTypes>
+  <name>РолиСпециалистовТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли специалистов тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиСпециалистовТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РолиСпециалистовТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9a3e3880-de20-48e0-8bb5-dbba39f5c2f0">
+      <name>Аналитик</name>
+      <description>Аналитик</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="66681fb1-f784-4e0d-991b-09f9f31480e6">
+      <name>ОтветственныйЗаТестирование</name>
+      <description>Ответственный за тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="57d08b42-c602-4c53-a957-4aed28e5db2f">
+      <name>ОтветственныйЗаТестированиеСоСтороныЗаказчика</name>
+      <description>Ответственный за тестирование со стороны заказчика</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2c87cec4-12bd-4f21-bc13-520a52a52089">
+      <name>СпециалистТестированияСоСтороныЗаказчика</name>
+      <description>Специалист тестирования со стороны заказчика</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="0f85d148-a42c-4cd1-87e9-f93f2cee2aa6">
+      <name>ТехническийАрхитектор</name>
+      <description>Технический архитектор</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="81c2ab77-466f-4052-b214-5cfc4aabc18a">
+      <name>Эксперт</name>
+      <description>Эксперт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

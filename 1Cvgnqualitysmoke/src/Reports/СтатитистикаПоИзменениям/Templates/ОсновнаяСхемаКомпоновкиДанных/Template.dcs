@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВКонтуре</dataPath>
+			<field>ВКонтуре</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В контуре</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВсегоИзменений</dataPath>
+			<field>ВсегоИзменений</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего изменений</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзмененныхМетаданных</dataPath>
+			<field>ИзмененныхМетаданных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Измененных метаданных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПровереноПрограммистом</dataPath>
+			<field>ПровереноПрограммистом</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверено программистом</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьВопросКонсультанту</dataPath>
+			<field>ЕстьВопросКонсультанту</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть вопрос консультанту</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПровереноКонсультантом</dataPath>
+			<field>ПровереноКонсультантом</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверено консультантом</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьВопросЗаказчику</dataPath>
+			<field>ЕстьВопросЗаказчику</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть вопрос заказчику</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПровереноЗаказчиком</dataPath>
+			<field>ПровереноЗаказчиком</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверено заказчиком</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеИспользуется</dataPath>
+			<field>НеИспользуется</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не используется</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеобходимаДоработка</dataPath>
+			<field>НеобходимаДоработка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необходима доработка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеобходимоРазделениеФункциональности</dataPath>
+			<field>НеобходимоРазделениеФункциональности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необходимо разделение функциональности</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПеренесеноВУХ</dataPath>
+			<field>ПеренесеноВУХ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенесено ВУХ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОписаниеИзменений.Ссылка КАК Ссылка,
+	ВЫРАЗИТЬ(ОписаниеИзменений.ГруппаМетаданных КАК СТРОКА(100)) КАК ГруппаМетаданных,
+	ВЫРАЗИТЬ(ОписаниеИзменений.Метаданные КАК СТРОКА(100)) КАК Метаданные,
+	ОписаниеИзменений.Организация КАК Организация
+ПОМЕСТИТЬ Данные
+ИЗ
+	Справочник.ОписаниеИзменений КАК ОписаниеИзменений
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ Данные.Ссылка) КАК Ссылка
+ПОМЕСТИТЬ ОбщееКоличествоИзменений
+ИЗ
+	Данные КАК Данные
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Данные.ГруппаМетаданных + Данные.Метаданные КАК СоставноеПолеМетаданных
+ПОМЕСТИТЬ ИзмененияПоМетаданным
+ИЗ
+	Данные КАК Данные
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ИзмененияПоМетаданным.СоставноеПолеМетаданных) КАК ИзмененныхМетаданных
+ПОМЕСТИТЬ ОбщееКоличествоМетаданных
+ИЗ
+	ИзмененияПоМетаданным КАК ИзмененияПоМетаданным
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОбщееКоличествоМетаданных.ИзмененныхМетаданных КАК ИзмененныхМетаданных,
+	ОбщееКоличествоИзменений.Ссылка КАК ВсегоИзменений,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ПровереноПрограммистом
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПровереноПрограммистом,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ЕстьВопросКонсультанту
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьВопросКонсультанту,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ПровереноКонсультантом
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПровереноКонсультантом,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ЕстьВопросЗаказчику
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьВопросЗаказчику,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ПровереноКлиентом
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПровереноЗаказчиком,
+	ВЫБОР
+		КОГДА Данные.Ссылка.ВКонтуре
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ВКонтуре,
+	ВЫБОР
+		КОГДА Данные.Ссылка.НеИспользуется
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК НеИспользуется,
+	ВЫБОР
+		КОГДА Данные.Ссылка.Отработано
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПеренесеноВУХ,
+	ВЫБОР
+		КОГДА Данные.Ссылка.НеобходимаДоработка
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК НеобходимаДоработка,
+	ВЫБОР
+		КОГДА Данные.Ссылка.НеобходимоРазделениеФункциональности
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК НеобходимоРазделениеФункциональности
+ПОМЕСТИТЬ Подготовлено
+ИЗ
+	ОбщееКоличествоИзменений КАК ОбщееКоличествоИзменений,
+	Данные КАК Данные,
+	ОбщееКоличествоМетаданных КАК ОбщееКоличествоМетаданных
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МАКСИМУМ(Подготовлено.ИзмененныхМетаданных) КАК ИзмененныхМетаданных,
+	МАКСИМУМ(Подготовлено.ВсегоИзменений) КАК ВсегоИзменений,
+	СУММА(Подготовлено.ПровереноПрограммистом) КАК ПровереноПрограммистом,
+	СУММА(Подготовлено.ЕстьВопросКонсультанту) КАК ЕстьВопросКонсультанту,
+	СУММА(Подготовлено.ПровереноКонсультантом) КАК ПровереноКонсультантом,
+	СУММА(Подготовлено.ЕстьВопросЗаказчику) КАК ЕстьВопросЗаказчику,
+	СУММА(Подготовлено.ПровереноЗаказчиком) КАК ПровереноЗаказчиком,
+	СУММА(Подготовлено.НеИспользуется) КАК НеИспользуется,
+	СУММА(Подготовлено.ВКонтуре) КАК ВКонтуре,
+	СУММА(Подготовлено.НеобходимаДоработка) КАК НеобходимаДоработка,
+	СУММА(Подготовлено.НеобходимоРазделениеФункциональности) КАК НеобходимоРазделениеФункциональности,
+	СУММА(Подготовлено.ПеренесеноВУХ) КАК ПеренесеноВУХ
+ИЗ
+	Подготовлено КАК Подготовлено</query>
+		<useQueryGroupIfPossible>false</useQueryGroupIfPossible>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Информация</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИзмененныхМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВсегоИзменений</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПровереноПрограммистом</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕстьВопросКонсультанту</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПровереноКонсультантом</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕстьВопросЗаказчику</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПровереноЗаказчиком</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеИспользуется</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВКонтуре</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеобходимоРазделениеФункциональности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеобходимаДоработка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПеренесеноВУХ</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

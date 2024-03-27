@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="715c2b3e-866f-4ca0-be7f-d24d322176ea">
+  <name>ОбъектыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты учета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ГруппаМетаданных</content>
+  <content>Catalog.СвойстваМетаданных</content>
+  <content>Catalog.Метаданные</content>
+  <content>Catalog.Конфигурации</content>
+  <content>DataProcessor.ЗагрузкаСравненияКонфигураций</content>
+  <content>Catalog.ЗначенияСвойствМетаданных</content>
+  <content>Catalog.ОписаниеИзменений</content>
+  <content>Report.АнализОписанияИзменений</content>
+  <content>DataProcessor.ЗагрузкаДополнительныхОтчетовИОбработок</content>
+  <content>DataProcessor.ЗагрузкаДанныхРасширений</content>
+  <content>Report.ОтчетСравнениеОтклоненийКонфигураций</content>
+  <content>Catalog.ФункциональныеУчастки</content>
+  <content>Catalog.Подсистемы</content>
+  <parentSubsystem>Subsystem.СравнениеКонфигураций</parentSubsystem>
+</mdclass:Subsystem>

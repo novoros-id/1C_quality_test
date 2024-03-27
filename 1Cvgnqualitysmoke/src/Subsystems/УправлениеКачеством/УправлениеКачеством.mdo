@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6e159f5-ab28-4b09-9c47-f6e715344237">
+  <name>УправлениеКачеством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление качеством</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Style.УправлениеКачеством</content>
+  <content>DefinedType.ОтветственныйСпециалист</content>
+  <content>Catalog.Организации</content>
+  <content>Role.ЧтениеОрганизаций</content>
+  <content>Role.ДобавлениеИзменениеОрганизаций</content>
+  <content>DataProcessor.СозданиеКонфигурационногоФайлаDevops</content>
+  <subsystems>Проекты</subsystems>
+  <subsystems>ТестированиеИнформация</subsystems>
+  <subsystems>СторонниеСпециалисты</subsystems>
+  <subsystems>ТестированиеИсполнение</subsystems>
+</mdclass:Subsystem>

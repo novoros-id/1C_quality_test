@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f9e0f2-2795-4031-a2cb-f32eacf8520a">
+  <producedTypes>
+    <objectType typeId="4a2e57c9-47f5-4667-a15f-91736e4eacf6" valueTypeId="bda244b5-f34f-4727-af62-a5e354d09842"/>
+    <refType typeId="f2bd1229-48ea-4425-9c64-d9f8aacf5f4a" valueTypeId="7897653f-0163-4028-9e70-e54ca3941466"/>
+    <selectionType typeId="cb0eff2a-db00-4e08-b8e5-41235a24f2f9" valueTypeId="3de008d4-1604-4ffa-a8a9-08524a84821d"/>
+    <listType typeId="570cc7a4-b0b4-4fdc-a2a1-b6e73a88b0ff" valueTypeId="36c1a19b-567c-4848-9a47-6eb129bb2f8d"/>
+    <managerType typeId="178debfc-b7f1-411a-aece-b6ff16bfb8d6" valueTypeId="eba1107a-146b-4557-86cb-71717c11fad7"/>
+  </producedTypes>
+  <name>СторонниеСпециалисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сторонние специалисты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СторонниеСпециалисты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СторонниеСпециалисты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ddb14cd1-8c50-41ea-98d0-524e49908215">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

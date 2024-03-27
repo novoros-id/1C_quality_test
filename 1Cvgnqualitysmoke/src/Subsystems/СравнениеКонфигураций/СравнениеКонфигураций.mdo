@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a045f48-c370-4e34-936d-db0a897e7ebf">
+  <name>СравнениеКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение конфигураций</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.АнализСовпаденийДобавленныхМетаданных</content>
+  <content>Enum.ТипыИзменений</content>
+  <content>DataProcessor.ЗаполнитьМетаданныеБезПрефикса</content>
+  <content>DataProcessor.ЗагрузкаДанныхПодсистем</content>
+  <content>Report.СтатитистикаПоИзменениям</content>
+  <content>DataProcessor.ЗагрузкаСтатистикиДополнительныхОтчетовИОбработок</content>
+  <subsystems>ОбъектыУчета</subsystems>
+</mdclass:Subsystem>

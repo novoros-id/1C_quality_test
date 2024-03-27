@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c45a5c0-62b5-4b6f-915f-b69fbf0d1d0d">
+  <producedTypes>
+    <objectType typeId="84873936-e1fa-4a16-9b7f-ec4ce8cf120e" valueTypeId="05ec0ddf-91d6-4a54-ab60-96c9534bc1fc"/>
+    <refType typeId="9d9228ef-a934-44bc-9cd8-4be14cd0bf84" valueTypeId="5f2c5fcc-b215-4437-b23c-aafc7b6648f2"/>
+    <selectionType typeId="c1c5f9a1-d299-4ef6-b968-706a4c120f49" valueTypeId="16ce11c3-5f2f-4069-a8c8-c4bc50405f2c"/>
+    <listType typeId="260e1103-3485-4d07-89b3-e63c8e841244" valueTypeId="0322d1e0-cfd3-4cac-a9b9-824af689c956"/>
+    <managerType typeId="dbf4ed9d-59ae-49d3-afaa-106193806bb0" valueTypeId="a2d9170b-29ec-48d5-b70a-c27954942241"/>
+  </producedTypes>
+  <name>НастройкиПрограммныхПродуктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки программных продуктов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиПрограммныхПродуктов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НастройкиПрограммныхПродуктов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НастройкиПрограммныхПродуктов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="4ca77245-9d39-4a16-ab22-3edb428dd422">
+    <name>ОбработкаФормированияНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка формирования настроек</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="564b5935-79c3-4f76-a645-647e2979d114">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="57477ce2-d817-46a2-a7d3-cdbcdf6925ca">
+    <producedTypes>
+      <objectType typeId="ea22769d-e2d9-41bd-86c1-972904ad86c0" valueTypeId="d21fa779-05e3-443e-8320-ec0981862f4d"/>
+      <rowType typeId="f7e60aee-eef4-4cec-a6da-c334fde4b3e9" valueTypeId="3f33f27a-0010-4779-872c-b81c01d724a1"/>
+    </producedTypes>
+    <name>ПрограммныеПродукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программные продукты</value>
+    </synonym>
+    <attributes uuid="ab54d86f-1b05-40ff-b95b-d383c04a8524">
+      <name>ПрограммныйПродукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Программный продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПрограммныеПродуктыТестирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="933a5d1b-8303-4b4a-91d3-49c99768566a">
+      <name>ОписаниеНастроек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание настроек</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b6e4303-f1d2-4207-8155-b214ad038c72">
+      <name>ФайлОписанияНастроек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл описания настроек</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Файлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2b2fb565-99d2-4ae6-a208-2e2d24da8f42">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

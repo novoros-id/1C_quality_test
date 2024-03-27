@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7b3dab-028b-4338-af56-8e31412c0b04">
+  <name>ТестированиеИсполнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование исполнение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DefinedType.ДокументТестирования</content>
+  <content>Document.РегистрацияЭтапаТестирования</content>
+  <content>DocumentJournal.ЖурналДокументовТестирования</content>
+  <parentSubsystem>Subsystem.УправлениеКачеством</parentSubsystem>
+</mdclass:Subsystem>

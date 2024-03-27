@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИзменения</dataPath>
+			<field>ТипИзменения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонфигурацияПриемник</dataPath>
+			<field>КонфигурацияПриемник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонфигурацияИсточник</dataPath>
+			<field>КонфигурацияИсточник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВКонтуре</dataPath>
+			<field>ВКонтуре</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание1</dataPath>
+			<field>Описание1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Метаданные</dataPath>
+			<field>Метаданные</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаМетаданных</dataPath>
+			<field>ГруппаМетаданных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация1</dataPath>
+			<field>Организация1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонфигурацияИсточник1</dataPath>
+			<field>КонфигурацияИсточник1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конфигурация источник1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонфигурацияПриемник1</dataPath>
+			<field>КонфигурацияПриемник1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Конфигурация приемник1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИзменения1</dataPath>
+			<field>ТипИзменения1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип изменения1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Метаданные1</dataPath>
+			<field>Метаданные1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Метаданные1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВКонтуре1</dataPath>
+			<field>ВКонтуре1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>В контуре1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка1</dataPath>
+			<field>Ссылка1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвойствоМетаданных1</dataPath>
+			<field>СвойствоМетаданных1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойство метаданных1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СвойствоМетаданных</dataPath>
+			<field>СвойствоМетаданных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИзмененияСвойствМетаданных1</dataPath>
+			<field>ТипИзмененияСвойствМетаданных1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип изменения свойств метаданных1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОписаниеСвойствМетаданных</dataPath>
+			<field>ОписаниеСвойствМетаданных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание свойств метаданных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипИзмененияСвойствМетаданных</dataPath>
+			<field>ТипИзмененияСвойствМетаданных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип изменения свойств метаданных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОписаниеСвойствМетаданных1</dataPath>
+			<field>ОписаниеСвойствМетаданных1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание свойств метаданных1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОписаниеСвойств.Ссылка КАК Ссылка,
+	ОписаниеСвойств.Ссылка.Организация КАК Организация,
+	ОписаниеСвойств.Ссылка.КонфигурацияИсточник КАК КонфигурацияИсточник,
+	ОписаниеСвойств.Ссылка.КонфигурацияПриемник КАК КонфигурацияПриемник,
+	ОписаниеСвойств.Ссылка.ТипИзменения КАК ТипИзменения,
+	ОписаниеСвойств.Ссылка.ГруппаМетаданных КАК ГруппаМетаданных,
+	ОписаниеСвойств.Ссылка.Метаданные КАК Метаданные,
+	ОписаниеСвойств.Ссылка.ВКонтуре КАК ВКонтуре,
+	ОписаниеСвойств.Ссылка.Описание КАК Описание,
+	ОписаниеСвойств.СвойствоМетаданных КАК СвойствоМетаданных,
+	ОписаниеСвойств.Описание КАК ОписаниеСвойствМетаданных,
+	ОписаниеСвойств.ТипИзменения КАК ТипИзмененияСвойствМетаданных
+ПОМЕСТИТЬ Данные1
+ИЗ
+	Справочник.ОписаниеИзменений.ОписаниеСвойств КАК ОписаниеСвойств
+ГДЕ
+	ОписаниеСвойств.Ссылка.Организация = &amp;Организация1
+	И ОписаниеСвойств.Ссылка.КонфигурацияИсточник = &amp;КонфигурацияИсточник
+	И ОписаниеСвойств.Ссылка.КонфигурацияПриемник = &amp;КонфигурацияПриемник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОписаниеСвойств.Ссылка КАК Ссылка,
+	ОписаниеСвойств.Ссылка.Организация КАК Организация,
+	ОписаниеСвойств.Ссылка.КонфигурацияИсточник КАК КонфигурацияИсточник,
+	ОписаниеСвойств.Ссылка.КонфигурацияПриемник КАК КонфигурацияПриемник,
+	ОписаниеСвойств.Ссылка.ТипИзменения КАК ТипИзменения,
+	ОписаниеСвойств.Ссылка.ГруппаМетаданных КАК ГруппаМетаданных,
+	ОписаниеСвойств.Ссылка.Метаданные КАК Метаданные,
+	ОписаниеСвойств.Ссылка.ВКонтуре КАК ВКонтуре,
+	ОписаниеСвойств.Ссылка.Описание КАК Описание,
+	ОписаниеСвойств.СвойствоМетаданных КАК СвойствоМетаданных,
+	ОписаниеСвойств.Описание КАК ОписаниеСвойствМетаданных,
+	ОписаниеСвойств.ТипИзменения КАК ТипИзмененияСвойствМетаданных
+ПОМЕСТИТЬ Данные2
+ИЗ
+	Справочник.ОписаниеИзменений.ОписаниеСвойств КАК ОписаниеСвойств
+ГДЕ
+	ОписаниеСвойств.Ссылка.Организация = &amp;Организация2
+	И ОписаниеСвойств.Ссылка.КонфигурацияИсточник = &amp;КонфигурацияИсточник
+	И ОписаниеСвойств.Ссылка.КонфигурацияПриемник = &amp;КонфигурацияПриемник
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Данные1.Организация КАК Организация,
+	Данные1.КонфигурацияИсточник КАК КонфигурацияИсточник,
+	Данные1.КонфигурацияПриемник КАК КонфигурацияПриемник,
+	Данные1.ТипИзменения КАК ТипИзменения,
+	Данные1.Метаданные КАК Метаданные,
+	Данные1.Описание КАК Описание,
+	Данные1.ВКонтуре КАК ВКонтуре,
+	Данные1.Ссылка КАК Ссылка,
+	Данные2.Ссылка КАК Ссылка1,
+	Данные2.Организация КАК Организация1,
+	Данные2.КонфигурацияИсточник КАК КонфигурацияИсточник1,
+	Данные2.КонфигурацияПриемник КАК КонфигурацияПриемник1,
+	Данные2.ТипИзменения КАК ТипИзменения1,
+	Данные2.Метаданные КАК Метаданные1,
+	Данные2.ВКонтуре КАК ВКонтуре1,
+	Данные2.Описание КАК Описание1,
+	Данные1.СвойствоМетаданных КАК СвойствоМетаданных,
+	Данные1.ОписаниеСвойствМетаданных КАК ОписаниеСвойствМетаданных,
+	Данные1.ТипИзмененияСвойствМетаданных КАК ТипИзмененияСвойствМетаданных,
+	Данные2.СвойствоМетаданных КАК СвойствоМетаданных1,
+	Данные2.ОписаниеСвойствМетаданных КАК ОписаниеСвойствМетаданных1,
+	Данные2.ТипИзмененияСвойствМетаданных КАК ТипИзмененияСвойствМетаданных1,
+	ЕСТЬNULL(Данные1.ГруппаМетаданных, Данные2.ГруппаМетаданных) КАК ГруппаМетаданных
+ИЗ
+	Данные1 КАК Данные1
+		ПОЛНОЕ СОЕДИНЕНИЕ Данные2 КАК Данные2
+		ПО Данные1.ГруппаМетаданных = Данные2.ГруппаМетаданных
+			И Данные1.Метаданные = Данные2.Метаданные
+			И Данные1.СвойствоМетаданных = Данные2.СвойствоМетаданных</query>
+	</dataSet>
+	<parameter>
+		<name>Организация1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонфигурацияИсточник</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конфигурация источник</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Конфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонфигурацияПриемник</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конфигурация приемник</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Конфигурации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Информация</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детальные записи</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Организация</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Ссылка</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВКонтуре</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Детальные записи</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Организация1</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Ссылка1</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВКонтуре1</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонфигурацияИсточник</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонфигурацияПриемник</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ГруппаМетаданных</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Метаданные</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Метаданные1</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>СвойствоМетаданных</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>СвойствоМетаданных1</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

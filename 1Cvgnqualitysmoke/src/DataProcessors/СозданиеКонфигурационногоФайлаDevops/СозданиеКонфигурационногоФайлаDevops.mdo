@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4005e5f-00bb-472f-b8e0-35b2afe20312">
+  <producedTypes>
+    <objectType typeId="dea02963-668c-44b3-a263-e84b1106ae7a" valueTypeId="32501444-8d87-4514-b34a-bc88f12c0124"/>
+    <managerType typeId="55ea28c9-4d6f-4a79-b8ef-f61fdab50dfd" valueTypeId="bc6d9277-2a45-4a39-ba40-42e6c97f23df"/>
+  </producedTypes>
+  <name>СозданиеКонфигурационногоФайлаDevops</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание конфигурационного файла Devops</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеКонфигурационногоФайлаDevops.Form.Форма</defaultForm>
+  <attributes uuid="37e60b22-7fbb-45c5-9939-913a4b22737e">
+    <name>Система</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="154c1c34-af4b-4356-8cac-ec58d5decf02">
+    <name>Платформа1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платформа1 С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf645d67-32cf-4687-9324-fe18ed697aaa">
+    <name>ipСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ip сервера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="874b8f78-44ec-413b-ba7e-07d9ba3af413">
+    <name>ПутьКХранилищу1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к хранилищу1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dfc9e602-6b84-47c0-843e-d44d51b84d25">
+    <name>ИспользованиеСервернойВременнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование серверной временной базы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ce9da94-bd74-4e0f-9f60-62b66c34557b">
+    <name>КаталогВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог выгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ec696e7-54fa-4f28-9cf0-49f608a9d671">
+    <name>IPСервера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP cервера 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f9f1afa-c4bb-482a-b709-4ee03af39d1b">
+    <name>ИмяСервера1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сервера 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ad1788d7-ff7e-4662-bdea-a54f4e3f9b5a">
+    <name>ИмяБазы1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2af7c27-c544-4ea1-b878-e085567e6b70">
+    <name>IPХранилища1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>IP сервера хранилища 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2f3324ab-5254-451b-b446-5898780a382b">
+    <name>ИмяХранилища1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сервера хранилища 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1cc80eb8-6c9e-41c0-91d2-faeb576c14aa">
+    <name>ВерсияМодуляТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия модуля тестирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27bcaddd-1216-43f4-ba08-5b996fd5d1d4">
+    <name>ПользовательХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c6516f9-b4e1-4498-aa2f-b4bb742a6151">
+    <name>ПарольХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8729fdde-57be-493d-9c3d-f16b653155b0">
+    <name>ИмяБазы1СДляДымовыхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы 1С для дымовых тестов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3950dc9-fd08-4c15-be62-8868d485ad2f">
+    <name>ИмяПользователяИБДляДымовыхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a4ac834-a58a-42a7-8b0a-33fa026cda9d">
+    <name>ПарольПользователяИБДляДымовыхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c120e89a-49a2-4ce0-9739-ce8091942b8a">
+    <name>ПользовательХранилищаИБДляДымовыхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4919cddf-aad4-4dee-a538-c7c989f3d4c6">
+    <name>ПарольХранилищаИБДляДымовыхТестов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль хранилища</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f0920fd-7faa-4ff4-b90a-b602b02b7370">
+    <name>ПортДляПодключенияККлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт для подключения к клиенту</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="43a36064-e9be-428c-ae5a-22ca5723877e">
+    <name>ОтправлятьРезультатПроведенияДымовыхТестовПоEMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять результат проведения дымовых тестов по e-mail</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fd98e146-13bc-43c6-8754-3d9083451731">
+    <name>AdressSMTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Adress SMTP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="915e223a-ce9b-4016-b8fe-f5ae4060f732">
+    <name>AdressPOP3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Adress POP3</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="752420ee-01fe-4e2e-b9bd-c1330702a25a">
+    <name>SenderEmail</name>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail отправителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="77d6510b-bac0-46e8-b215-5239803a6254">
+    <name>UserPassword</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль отправителя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd02315d-895a-4e58-917b-8ec1906680c8">
+    <name>RecieverEmail</name>
+    <synonym>
+      <key>ru</key>
+      <value>E-mail получателя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b0748874-b6bb-4780-a467-6580f9484f64">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b51285cd-c54c-4f18-9b6f-a2c3971968fb">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="2be8dac2-0452-43f7-8df4-3c10d0756a8d">
+    <name>Файл0FillParams</name>
+    <synonym>
+      <key>ru</key>
+      <value>0-fill-params</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

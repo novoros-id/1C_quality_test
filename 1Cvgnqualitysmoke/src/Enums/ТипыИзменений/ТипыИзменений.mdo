@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39a577aa-97ab-446d-8cd8-977eb611c4c4">
+  <producedTypes>
+    <refType typeId="16fe912f-a510-49bc-9227-ab106b4e8259" valueTypeId="430268ab-4e4c-4390-bd9d-8933ab6d4ab5"/>
+    <listType typeId="a4fe54b1-384b-4dd2-8577-8788e79f3db3" valueTypeId="0b17ae3c-586b-4e2b-90c8-7027eb8e9634"/>
+    <managerType typeId="b980398a-d00a-4a8b-80b1-3d28b9f4d94c" valueTypeId="6e4c61e3-5f9c-43b1-88d0-59651405fa71"/>
+  </producedTypes>
+  <name>ТипыИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы изменений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="af8138c3-2f91-4088-a76f-0ff5d1bc542d">
+    <name>ОбъектИзменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект изменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64555716-4bc1-4112-b4a9-1e8e0e62f6fa">
+    <name>ОбъектПрисутствуетТолькоВОсновнойКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект присутствует только в конфигурации приемнике</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1baee44e-49a0-4f9c-9941-3d6f6edf3d7f">
+    <name>ОбъектПрисутствуетТолькоВКонфигурацииПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект присутствует только в конфигурации источнике</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a8dc82b-b3cb-498c-8e8b-df0ccf0063d7">
+  <producedTypes>
+    <containerType typeId="e8a68886-6a84-4b33-8963-a0530b0c498e" valueTypeId="404a00bc-1eec-4651-a861-7f8f2141c949"/>
+  </producedTypes>
+  <name>ОтветственныйСпециалист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственный специалист</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.СторонниеСпециалисты</types>
+  </type>
+</mdclass:DefinedType>

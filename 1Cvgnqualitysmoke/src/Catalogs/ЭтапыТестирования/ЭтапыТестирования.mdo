@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e92df60f-ff08-47d7-8214-b792358dd322">
+  <producedTypes>
+    <objectType typeId="d1a80d04-2d73-4d3a-b2c8-b94e919f7cbf" valueTypeId="a34c2c32-c1e4-4aac-9205-54c25a5707f4"/>
+    <refType typeId="5b3d51d5-26cd-4249-85d2-58dc3e7930e5" valueTypeId="825fdef1-98bb-4ff8-b85b-251591d01d2f"/>
+    <selectionType typeId="4bec0951-8cf7-429c-85be-15160e45147e" valueTypeId="fdf6140b-6cb5-4f8c-bc48-ec388b9a586a"/>
+    <listType typeId="a080cbff-202f-4372-940b-bb66c1efc9a3" valueTypeId="b683ad13-f556-4ffb-837f-06899cf0bebf"/>
+    <managerType typeId="2bb738d2-fda5-4415-badb-d8d70e337197" valueTypeId="bac3076a-94a8-4ea7-b92e-76a8c03666cc"/>
+  </producedTypes>
+  <name>ЭтапыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этапы тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭтапыТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭтапыТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВидыТестирования</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="538de1f3-f33f-45d4-99ce-6ffc7b8930de">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

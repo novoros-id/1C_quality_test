@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Путь к конфигурационному файлу
+config_file="./params"
+
+# Проверяем существование файла
+if [ ! -f "$config_file" ]; then
+    echo "Ошибка: Файл $config_file не найден."
+    exit 1
+fi
+
+# Внести изменения?
+read -p "Внести изменения? (1 - да, 0 - нет): " user_response
+
+# Проверяем ответ пользователя
+if [ "$user_response" != "1" ]; then
+    echo "Изменения отменены."
+    exit 0
+fi
+
+# Чтение всех параметров
+while IFS= read -r line; do
+    # Игнорируем строки, начинающиеся с комментариев (#)
+    if [[ "$line" =~ ^\ *# ]]; then
+        continue
+    fi
+
+    # Извлекаем параметры
+    file_name=$(echo "$line" | awk -F'[,=]' '{print $2}')
+    name_var=$(echo "$line" | awk -F'[,=]' '{print $4}')
+    mean_var=$(echo "$line" | awk -F'[,=]' '{print $6}')
+
+    # Выводим значения параметров
+    echo "Обработка параметров"
+    echo "Значение параметра FileName: $file_name"
+    echo "Значение параметра NameVar: $name_var"
+    echo "Значение параметра ValueVar: $mean_var"
+    
+    # Проверяем существование файла
+    if [ ! -f "$file_name" ]; then
+       echo "Ошибка: Файл $file_name не найден."
+    else
+    	# Проверяем наличие значения переменной NameVar в файле
+        if ! grep -q "$name_var" "$file_name"; then
+            echo "Ошибка: Значение переменной NameVar не найдено в файле."
+        else
+            # Заменяем текст в файле
+           escaped_mean_var=$(printf '%s\n' "$mean_var" | sed 's/[\/&]/\\&/g') 
+	   sed -i "s/\b$name_var\b/$escaped_mean_var/g" "$file_name"
+           echo "Текст с переменной NameVar заменен на значение переменной MeanVar в файле $file_name."
+        fi
+    fi
+    
+done < "$config_file"
+

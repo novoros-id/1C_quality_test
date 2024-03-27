@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаМетаданных</dataPath>
+			<field>ГруппаМетаданных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация1</dataPath>
+			<field>Организация1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МетаданныеБезПрефикса</dataPath>
+			<field>МетаданныеБезПрефикса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объект1</dataPath>
+			<field>Объект1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация2</dataPath>
+			<field>Организация2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объект2</dataPath>
+			<field>Объект2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ОписаниеИзменений.ГруппаМетаданных КАК ГруппаМетаданных,
+	ОписаниеИзменений.МетаданныеБезПрефикса КАК МетаданныеБезПрефикса,
+	ОписаниеИзменений.Ссылка КАК Объект1,
+	ОписаниеИзменений.Организация КАК Организация1,
+	ОписаниеИзменений1.Ссылка КАК Объект2,
+	ОписаниеИзменений1.Организация КАК Организация2
+ИЗ
+	Справочник.ОписаниеИзменений КАК ОписаниеИзменений
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ОписаниеИзменений КАК ОписаниеИзменений1
+		ПО (НЕ ОписаниеИзменений.Ссылка = ОписаниеИзменений1.Ссылка)
+			И ((ВЫРАЗИТЬ(ОписаниеИзменений.ГруппаМетаданных КАК СТРОКА(100))) = (ВЫРАЗИТЬ(ОписаниеИзменений1.ГруппаМетаданных КАК СТРОКА(100))))
+			И ((ВЫРАЗИТЬ(ОписаниеИзменений.МетаданныеБезПрефикса КАК СТРОКА(100))) = (ВЫРАЗИТЬ(ОписаниеИзменений1.МетаданныеБезПрефикса КАК СТРОКА(100))))
+ГДЕ
+	НЕ (ВЫРАЗИТЬ(ОписаниеИзменений.МетаданныеБезПрефикса КАК СТРОКА(5))) = ""
+	И НЕ (ВЫРАЗИТЬ(ОписаниеИзменений1.МетаданныеБезПрефикса КАК СТРОКА(5))) = ""
+	И НЕ ОписаниеИзменений.Расширение
+	И НЕ ОписаниеИзменений1.Расширение
+</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Информация</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ГруппаМетаданных</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МетаданныеБезПрефикса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Объект1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Объект2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация2</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45697692-d736-44f5-a239-ec978b54cfbf">
+  <name>ДобавлениеИзменениеВидовТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение видов тестирования</value>
+  </synonym>
+</mdclass:Role>

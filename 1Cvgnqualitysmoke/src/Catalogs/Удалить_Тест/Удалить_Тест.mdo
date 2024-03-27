@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ded1eaef-4f6e-4ba7-b892-4a30ecf76c04">
+  <producedTypes>
+    <objectType typeId="2539f470-00df-4174-9480-d31cc608f52d" valueTypeId="236bea09-5315-4e05-9020-4142225a083d"/>
+    <refType typeId="32979f41-af37-4590-bd39-47511f1531d7" valueTypeId="089eeaed-b595-4778-95e8-fb51bc9a2105"/>
+    <selectionType typeId="795be5d0-a387-44fd-99d4-5e233520fae4" valueTypeId="78955f34-0a97-4dbc-bac2-192b152c131b"/>
+    <listType typeId="b1fd33b6-e2d6-4711-894a-83fe139e3419" valueTypeId="51afaa4e-cee5-4191-945f-5b2f73eea374"/>
+    <managerType typeId="aafe5045-c28c-4a7f-bafa-6c957166dee9" valueTypeId="fd58e87c-e232-459d-b1cb-191c43f2dbbc"/>
+  </producedTypes>
+  <name>Удалить_Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Удалить_Тест.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Удалить_Тест.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Удалить_Тест.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="a3707372-d151-4eb9-b2c6-c7d8164aa5ad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea8b982f-a04f-426b-b19a-33d4cfba6e21">
+  <producedTypes>
+    <objectType typeId="56e76555-62bf-4b1b-a631-87e484d6b555" valueTypeId="1051b86b-a028-490d-8062-af3552799576"/>
+    <refType typeId="279989ae-9600-421d-8614-8f7ecb47a172" valueTypeId="ef935f76-ac9a-43dc-8a03-e4143d34f033"/>
+    <selectionType typeId="91ba673e-38a4-42bf-b753-8d68d0a51988" valueTypeId="2e352554-0ad9-48b8-9ebb-5617485d679c"/>
+    <listType typeId="741226bb-21fd-4556-9af9-ef9927660e72" valueTypeId="ee69fc7a-cead-43f4-87c3-6fb366021da9"/>
+    <managerType typeId="333a245f-0076-460b-ac75-cd6a3bdff3a1" valueTypeId="91c51c50-ed2f-4272-8106-de42bf45cfbd"/>
+  </producedTypes>
+  <name>ВидыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="724f88c4-4961-4a66-9afe-2d622846bc99">
+      <name>ABтестирование</name>
+      <description>A/B-тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="a827cb02-d7f2-4f1d-858a-25917bf58b48">
+      <name>ДымовоеТестирование</name>
+      <description>Дымовое тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="ede940dc-9a3d-4705-9fc8-db6c530b3aff">
+      <name>КонфигурационноеТестирование</name>
+      <description>Конфигурационное тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="75c55e8f-0a91-4152-ac7f-db74169a6979">
+      <name>НагрузочноеТестирование</name>
+      <description>Нагрузочное тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="23d1da87-9115-4a08-a726-1ecb8822afe4">
+      <name>ПриемочноеТестирование</name>
+      <description>Приемочное тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="5aeb0c97-1d23-461d-9745-4a5c6366cd5a">
+      <name>ПроверкаСтандартовКода</name>
+      <description>Проверка стандартов кода</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="7532716b-4837-43cd-9dcb-93151a5464e4">
+      <name>ТестированиеБезопасности</name>
+      <description>Тестирование безопасности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="f44def02-1e85-48c3-9172-a5e7562e48db">
+      <name>ТестированиеДокументации</name>
+      <description>Тестирование документации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f02b5908-ebb5-4b16-9d53-d45bfb34fc66">
+      <name>ФункциональноеТестирование</name>
+      <description>Функциональное тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="049b9bdd-ee43-4f17-8b43-f9aa786e74df">
+      <name>ЮзабилитиТестирование</name>
+      <description>Юзабилити тестирование</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыТестирования.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a96ac1c6-20f6-45e9-9b4c-de15022c9139">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="6dd0a19a-0b21-4ecf-a3bc-274b01f74cc3">
+    <producedTypes>
+      <objectType typeId="fca751e6-19ec-4ae3-935c-55e2ebcbdcde" valueTypeId="2b9d51f3-60d0-4c5e-9cd5-0b5ca5a697a3"/>
+      <rowType typeId="52c6a1f7-376a-4585-b8b3-9cd269a31788" valueTypeId="1f98c453-10c0-4998-905b-e8f033e658df"/>
+    </producedTypes>
+    <name>ЭтапыТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этапы тестирования</value>
+    </synonym>
+    <attributes uuid="4bb92776-c9db-49ea-90ad-ad2b9ec0866e">
+      <name>ЭтапТестирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этап тестирования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЭтапыТестирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ВидыТестирования.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c9a833b7-4f1e-4aaf-8a4b-cecb20fe378e">
+    <producedTypes>
+      <objectType typeId="4c7131e8-de9d-4759-b354-f017dbad1812" valueTypeId="fdbfbfa8-e46c-4979-9cc2-f212221134d1"/>
+      <rowType typeId="38909b2c-f795-4e62-9ecc-07fc98560db1" valueTypeId="76fe1051-fb8f-42a3-a7be-b1d655f33f4a"/>
+    </producedTypes>
+    <name>НастройкиПрограммныхПродуктов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки программных продуктов</value>
+    </synonym>
+    <attributes uuid="1af940a8-3376-4b46-ac78-7d2a137da2a5">
+      <name>НастройкаПрограммныхПродуктов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Настройка программных продуктов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НастройкиПрограммныхПродуктов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9d964e6b-52e1-4e45-953b-e626450d285f">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b567fd5-4d74-4f23-bc5a-ebe80beb4c90">
+      <name>ЭтапТестирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этап тестирования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЭтапыТестирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="75d09d45-92f7-4aa4-a2e3-5b20458569f7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

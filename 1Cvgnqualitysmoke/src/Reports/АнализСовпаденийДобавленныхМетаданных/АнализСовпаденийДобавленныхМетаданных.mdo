@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29b3e372-82dd-42b6-8430-61149972b124">
+  <producedTypes>
+    <objectType typeId="6701f860-88b5-4ed7-89d6-7263d36cae12" valueTypeId="6ec259f3-beea-4576-acca-635fcf3fab50"/>
+    <managerType typeId="20a4b035-6d5d-4fbf-abd8-81d725e7a9b4" valueTypeId="528d2f66-b80c-426e-9e62-eeb489dc1f19"/>
+  </producedTypes>
+  <name>АнализСовпаденийДобавленныхМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ совпадений добавленных метаданных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализСовпаденийДобавленныхМетаданных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="f0ecbff3-aed9-4987-85d8-4147f6436367">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

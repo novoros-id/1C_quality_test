@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff6d9d69-4683-4af6-bab6-840ecbfbc1f2">
+  <name>ТестированиеИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыТестирования</content>
+  <content>Role.ЧтениеВидовТестирования</content>
+  <content>Role.ДобавлениеИзменениеВидовТестирования</content>
+  <content>Catalog.РолиСпециалистовТестирования</content>
+  <content>Role.ЧтениеРолейТестирования</content>
+  <content>Role.ДобавлениеИзменениеРолейТестирования</content>
+  <content>Catalog.ПрограммныеПродуктыТестирования</content>
+  <content>Catalog.ЭтапыТестирования</content>
+  <content>Role.ЧтениеЭтаповТестирования</content>
+  <content>Role.ДобавлениеИзменениеЭтаповТестирования</content>
+  <content>Catalog.НастройкиПрограммныхПродуктов</content>
+  <parentSubsystem>Subsystem.УправлениеКачеством</parentSubsystem>
+</mdclass:Subsystem>

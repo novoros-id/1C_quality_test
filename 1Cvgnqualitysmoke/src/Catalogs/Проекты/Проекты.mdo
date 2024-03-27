@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="611b9225-2703-4622-9dd7-846df3f30d89">
+  <producedTypes>
+    <objectType typeId="c4f936b4-367e-4d8d-bc31-a6b62cef8873" valueTypeId="5a0c9d87-d0ea-4417-808b-4a47ea5c3759"/>
+    <refType typeId="680cb18d-f6db-4f46-96a8-b44d35c97cf9" valueTypeId="9019c042-cd9f-46e6-9a1a-567ace585a61"/>
+    <selectionType typeId="1fdc9e25-dbbf-467f-8203-b85fad667ef9" valueTypeId="2ef7c768-c07b-4cac-ba62-040a5649508e"/>
+    <listType typeId="fb6faad1-fa7a-4517-99e3-302adcfbba26" valueTypeId="4686e3c7-869b-4579-a1c2-23aa187e0528"/>
+    <managerType typeId="2daf5b80-610b-478c-b145-ecd09f2ecf18" valueTypeId="f5276839-7195-4760-b79d-98ab05a6b4ba"/>
+  </producedTypes>
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Проекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Проекты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9ee6a62e-8e9e-41f4-be9e-cbba76434045">
+    <name>КраткоеОписаниеПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое описание проекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0bd7560-8002-47aa-bceb-e468fe92ca23">
+    <name>МесторасположениеСредыРазработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месторасположение среды разработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd890755-9571-4b64-a607-da68c79ae225">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="838e93e4-7466-47c4-9e01-560461b366b0">
+    <producedTypes>
+      <objectType typeId="faee1d6e-25e9-41ec-8fdb-e5303a2aebef" valueTypeId="62a3d7fc-fc42-4154-8399-f6e461e57b06"/>
+      <rowType typeId="1e1a2118-a62e-49b1-b79e-db9f352368dd" valueTypeId="fd88ee6d-083a-4434-bf47-ecaaeb44ae6d"/>
+    </producedTypes>
+    <name>ПрименяемоеТестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применяемое тестирование</value>
+    </synonym>
+    <attributes uuid="afd07e55-8b11-439d-aef2-024b8fec7a79">
+      <name>ВидТестирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид тестирования</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыТестирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e7344ea-de88-4014-b5de-cfd7422b9be0">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fcccc5c8-f6c8-4ef7-bb04-8488e06a8f91">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

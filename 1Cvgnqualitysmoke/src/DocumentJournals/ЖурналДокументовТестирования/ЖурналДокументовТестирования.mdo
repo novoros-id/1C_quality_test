@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09940165-974b-4df3-8716-9f2761959c94">
+  <producedTypes>
+    <selectionType typeId="bb995b8d-c4c6-4dfe-969b-732db3ad7e51" valueTypeId="27e9d823-9449-425a-9ee4-77346726c303"/>
+    <listType typeId="fe27029b-56d7-4679-b9d9-206f5f1e6ea5" valueTypeId="c9ee070d-26ba-4f72-8f8f-26642dbaec4e"/>
+    <managerType typeId="d8b0c727-76ae-4bd6-872a-76e13524f3ba" valueTypeId="4ef9becf-5a3a-485e-b0ff-4b6173bc5d6f"/>
+  </producedTypes>
+  <name>ЖурналДокументовТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал документов тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РегистрацияЭтапаТестирования</registeredDocuments>
+  <columns uuid="989f2201-f22f-48df-a459-6e2dc49b24ec">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <references>Document.РегистрацияЭтапаТестирования.Attribute.Проект</references>
+  </columns>
+  <columns uuid="c76f2bcb-609b-44ac-b3dc-539bca77d399">
+    <name>ВидТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид тестирования</value>
+    </synonym>
+    <references>Document.РегистрацияЭтапаТестирования.Attribute.ВидТестирования</references>
+  </columns>
+  <columns uuid="fc15bf45-5f75-4f48-8265-53336c7b2584">
+    <name>ЭтапТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап тестирования</value>
+    </synonym>
+    <references>Document.РегистрацияЭтапаТестирования.Attribute.ЭтапТестирования</references>
+  </columns>
+</mdclass:DocumentJournal>

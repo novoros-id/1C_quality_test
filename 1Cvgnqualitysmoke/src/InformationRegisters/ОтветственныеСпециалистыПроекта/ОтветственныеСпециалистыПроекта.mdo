@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="745b4198-7ac8-4138-8961-848b2535c4a9">
+  <producedTypes>
+    <selectionType typeId="389a7c4c-01d6-42b7-ab42-31cc7d3a8da9" valueTypeId="3c7855da-8841-4f71-9105-8f337ed7a85e"/>
+    <listType typeId="2949800b-d12d-4a35-a23e-e4ed78d88ee3" valueTypeId="86c2dbab-237d-4906-a3e8-d323ccefbbb1"/>
+    <managerType typeId="59af5d2b-d003-456d-98b1-d11232d66fa4" valueTypeId="063c8008-43df-4b1b-96d3-a72984d9a0a4"/>
+    <recordSetType typeId="49cc1077-39da-454f-bdbc-8b1874265e50" valueTypeId="35520528-b7ab-4162-8946-bbdaaab2a99d"/>
+    <recordKeyType typeId="ed7f55e2-906d-42ed-b15e-d9b053b252e8" valueTypeId="d8143e0b-8da4-4da5-ade2-03b526bb73a4"/>
+    <recordType typeId="d81a0725-61dd-442d-8eb5-bdafb289bdae" valueTypeId="de67bc40-c9d1-4589-a3d3-561936c7df4d"/>
+    <recordManagerType typeId="9df3549b-6dbe-4e3f-9494-09503b3312b6" valueTypeId="732619c3-2e96-4598-9776-ec1fd68577c7"/>
+  </producedTypes>
+  <name>ОтветственныеСпециалистыПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные специалисты проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d19e89b3-77c7-4427-866d-5f5302c6ebea">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтветственныйСпециалист</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="642fa1ec-9ece-4d90-9ece-3cc2ad4ddc5b">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="71ec3ed4-5b0a-4c51-b59c-f074a38abe69">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиСпециалистовТестирования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

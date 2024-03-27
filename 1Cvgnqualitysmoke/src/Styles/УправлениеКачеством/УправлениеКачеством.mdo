@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2906f841-98f7-4dc4-a352-969ac215dfc2">
+  <name>УправлениеКачеством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление качеством</value>
+  </synonym>
+</mdclass:Style>
