@@ -1,9 +1,9 @@
 {
   "$schema": "schema.json",
-  "v8version": "8.3",
+  "v8version": "8.3.24.136",
   "edtVersion": "",
   "srcDir": "src/cf",
-  "sourceFormat": "designer",
+  "sourceFormat": "edt",
   "defaultBranch": "main",
   "secrets": {
     "storagePath": "UNKNOWN_ID",
