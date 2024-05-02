@@ -37,7 +37,7 @@
     "zipInfoBase": 60
   },
   "initInfobase": {
-    "initMethod": "fromStorage",
+    "initMethod": "fromSource",
     "runMigration": true,
     "additionalInitializationSteps": [],
     "extensions": []
